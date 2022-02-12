@@ -1,1 +1,1 @@
-alert("Se hha cargado exitósamente JS")
+alert("Se ha cargado exitósamente JS")

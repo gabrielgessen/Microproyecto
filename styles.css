@@ -1,0 +1,70 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New';
+}
+
+nav{
+    background: #0553e4; 
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color:white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: rgba(81, 81, 255, 0.979);
+    transition: .5s;
+}
+
+section{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#Exp{
+    background: linear-gradient(-45deg, white 30%, rgb(135, 133, 250) 0%) ;
+}
+#SM{
+    background: linear-gradient(-45deg, white 30%, rgb(6, 37, 122) 0%) ;
+}
+#S{
+    background: linear-gradient(-45deg, white 30%, rgb(135, 133, 250) 0%) ;
+}
+#C{
+    background: linear-gradient(-45deg, white 30%, rgb(6, 37, 122) 0%) ;
