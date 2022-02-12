@@ -50,14 +50,15 @@ a.active,a:hover{
 }
 
 section{
-    height: 100vh;
-    width: 100vw;
+    height: 200vh;
+    width: 200vh;
     left: 0;
     top: 0;
     display: flex; /*Este es el que lo centra*/
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    color: white;
 }
 section.carrusel{
     height: 60vh;
@@ -151,6 +152,7 @@ section.carrusel{
 }
 
 .formulario_titulo{
+    color: black;
     text-align: center;
     margin-top: 0;
     color: rbga(0,0,0,0.3);
@@ -193,4 +195,25 @@ section.carrusel{
 
 .fijar{
     margin-top: -110px;
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 100px;
+    align-items: center;
+    
+  }
+  div.container {
+  text-align: center;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+NL{
+    width:100%;
+    alt: "Norther Lights";
+    align-items: center;
+
 }
